@@ -1,6 +1,9 @@
 language: node_js
 node_js:
-  - '14'
-
-install:
-  - npm install -g firebase-tools
+  - "node"
+script:
+  -
+deploy:
+  provider: firebase
+  token:
+    secure: "1//03YmR1o4JebxvCgYIARAAGAMSNwF-L9IrH8nl6-RjCxPTKp1JrdDdH6VprD0rPDhIqldOZPoxv8aI7bivkPMKfgUqRuMqW7zu738"
