@@ -25,33 +25,6 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Events',
-        to: '/events',
-        icon: 'mdi-assistant',
-        meta: {
-          showToolbar: true,
-          showBottomNav: true
-        },
-      },
-      {
-        text: 'Team',
-        to: '/team',
-        icon: 'mdi-account-settings',
-        meta: {
-          showToolbar: true,
-          showBottomNav: true
-        },
-      },
-      {
-        text: 'Speakers',
-        to: '/speakers',
-        icon: 'mdi-assistant',
-        meta: {
-          showToolbar: true,
-          showBottomNav: false
-        },
-      },
-      {
         text: 'About',
         to: '/about',
         icon: 'mdi-comment-alert',
@@ -73,15 +46,6 @@ export default new Vuex.Store({
         text: 'Partners',
         to: '/partners',
         icon: 'mdi-currency-usd',
-        meta: {
-          showToolbar: false,
-          showBottomNav: false
-        },
-      },
-      {
-        text: 'Blogs',
-        to: '/blogs',
-        icon: 'mdi-blogger',
         meta: {
           showToolbar: true,
           showBottomNav: false
