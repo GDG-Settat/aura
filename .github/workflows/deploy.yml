@@ -1,5 +1,5 @@
 name: DEPLOY TO STAGING
- 
+
 on:
   push:
     branches:
