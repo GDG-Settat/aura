@@ -41,10 +41,7 @@
         <p class="google-font mb-0" style="font-size:110%"> {{data.group.localized_location}} </p>
         <p class="google-font"> {{data.group.timezone}} </p>
 
-        <p class="google-font mb-0" style="font-size:95%">
-          <b>Description</b>
-        </p>
-        <div v-html="data.description" ></div>
+      
 
         <v-btn
           color="indigo"
